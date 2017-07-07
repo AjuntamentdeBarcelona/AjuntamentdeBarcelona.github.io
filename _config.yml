@@ -7,8 +7,8 @@
 
 # Site settings
 title: Ajuntament de Barcelona
-#email: 
-#description:  
+email: github@bcn.cat
+description: Repositoris de l'Ajuntament de Barcelona 
 #baseurl: "/jekyll-wing-template" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
