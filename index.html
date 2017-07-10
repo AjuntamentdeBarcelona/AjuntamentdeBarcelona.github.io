@@ -11,7 +11,7 @@ layout: default
   <div class="posts card">
       <div class="card-content white-text">
       <span class="card-title">Repositoris</span>
-
+<!--
       <ul class="post-list">
         {% for post in site.posts %}
           <li>
@@ -21,7 +21,7 @@ layout: default
       </ul>
       </div>
    </div>
- 
+ -->
  
    <div class="posts card">
       <div class="card-content white-text">
@@ -30,7 +30,7 @@ layout: default
       <ul class="post-list">
          {% for repository in site.github.public_repositories %}
           <li>
-            * [{{ repository.name }}]({{ repository.html_url }})           
+            <a class="post-link" href="{{ repository.html_url }}">{{ repository.name }}</a>          
           </li>
         {% endfor %}
       </ul> 
