@@ -8,10 +8,11 @@ layout: default
     <p class="description">{{ site.description }}</p>
 
   </div>
+ <!--
   <div class="posts card">
       <div class="card-content white-text">
       <span class="card-title">Repositoris</span>
-<!--
+
       <ul class="post-list">
         {% for post in site.posts %}
           <li>
@@ -30,7 +31,11 @@ layout: default
       <ul class="post-list">
          {% for repository in site.github.public_repositories %}
           <li>
-            <a class="post-link" href="{{ repository.html_url }}">{{ repository.name }}</a>          
+            <a class="post-link" href="{{ repository.html_url }}">{{ repository.name }}</a><br />
+           {{ repository.description }}<br />
+           {{ repository.programmingLanguage }}<br />
+           
+           
           </li>
         {% endfor %}
       </ul> 
