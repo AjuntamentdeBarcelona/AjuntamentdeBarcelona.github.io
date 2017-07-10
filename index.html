@@ -19,12 +19,21 @@ layout: default
           </li>
         {% endfor %}
       </ul>
-       
-       {% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
-       
-       
+      </div>
+   </div>
+ 
+ 
+   <div class="posts card">
+      <div class="card-content white-text">
+      <span class="card-title">Repositoris</span>
+
+      <ul class="post-list">
+         {% for repository in site.github.public_repositories %}
+          <li>
+            * [{{ repository.name }}]({{ repository.html_url }})           
+          </li>
+        {% endfor %}
+      </ul> 
       </div>
    </div>
 
