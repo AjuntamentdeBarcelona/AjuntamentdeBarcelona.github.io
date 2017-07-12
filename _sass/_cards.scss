@@ -24,6 +24,14 @@
       cursor: pointer;
     }
   }
+  
+    .card-title-list {
+    font-size: 20px;
+    font-weight: 300;
+    &.activator {
+      cursor: pointer;
+    }
+  }
 
   // Card Sizes
   &.small, &.medium, &.large {
