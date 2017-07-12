@@ -26,6 +26,10 @@
   }
   
     .card-title-list {
+    color: #EF6C00; 
+    display: block;
+    border-bottom: #EF6C00 solid 1px;
+    width: 50%;
     font-size: 20px;
     font-weight: 300;
     &.activator {
