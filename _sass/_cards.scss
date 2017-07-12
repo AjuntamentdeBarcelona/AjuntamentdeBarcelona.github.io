@@ -25,7 +25,7 @@
     }
   }
   
-    .card-title-list li {
+    .card-title-list {
     color: #EF6C00; 
     display: block;
     border-bottom: #EF6C00 solid 1px;
@@ -36,7 +36,14 @@
       cursor: pointer;
     }
   }
-
+  
+   .card-title-list li {
+    color: #EF6C00; 
+    display: block;
+    border-bottom: #EF6C00 solid 1px;
+    width: 50%;
+  }
+  
   // Card Sizes
   &.small, &.medium, &.large {
     position: relative;
