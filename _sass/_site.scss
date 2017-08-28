@@ -11,6 +11,31 @@
     background-color: #fafbfc;
     border-bottom: 1px solid #eee; 
   
+  .org-group{
+	width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+}
+
+.org-item{
+	display: table-cell;	
+}
+
+.org-item h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.avatar {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    border-radius: 3px;
+}
  
 
     .wrapper{
