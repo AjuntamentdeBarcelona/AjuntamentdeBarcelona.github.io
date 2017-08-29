@@ -11,12 +11,20 @@
     background-color: #fafbfc;
     border-bottom: 1px solid #eee; 
   
-  .org-group{
-   	  width: 980px;
-	  margin-right: auto;
-   	  margin-left: auto;
+.org-group{
+   	width: 980px;
+	margin-right: auto;
+   	margin-left: auto;
+}
+
+.org-group-list{
     	  display: table;
 	  margin-bottom: 20px;
+}
+	
+.org-group-list .avatar{
+   display: block;
+   width: 100px;
 }
 
 .org-item{
@@ -37,6 +45,7 @@
     vertical-align: middle;
     border-radius: 3px;
     margin-top: 20px;
+    white-space: nowrap;
 }
  
 
