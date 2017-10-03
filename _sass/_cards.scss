@@ -1,4 +1,17 @@
+.repo-language-color {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 0px;
+}
 
+.text-gray {
+    color: #586069;
+    font-size: 12px;
+}
 
 .card-panel {
   transition: box-shadow .25s;
