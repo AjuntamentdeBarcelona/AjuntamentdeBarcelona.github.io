@@ -1,13 +1,14 @@
 .text-box {
     color: #FFFFFF;
     font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .box-ruby, .box-python, .box-javascript, .box-typescript, .box-php, .box-java, .box-swift {
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 10px;
+    padding-bottom: 3px;
  }
 
 .box-ruby{
@@ -19,7 +20,7 @@
 }
 
 .box-javascript{
-    background-color:#bfb24a;
+    background-color:#BFB24A;
 }
 
 .box-typescript{
